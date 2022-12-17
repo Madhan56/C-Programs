@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    char letters;
+    printf("Enter Your Letter:");
+    scanf("%c",&letters);
+    switch (letters)
+    {
+        case 'a':
+        printf("The Given letter Is An Vowel");
+        break;
+        case 'e':
+        printf("The Given letter Is An Vowel");
+        break;
+        case'i':
+        printf("The Given letter Is An Vowel");
+        break;
+        case 'o':
+        printf("The Given letter Is An Vowel");
+        break;
+        case 'u':
+        printf("The Given letter Is An Vowel");
+        break;
+        default:
+        printf("The Given Letter Is A Consonant");
+    }
+    return 0;
+}
