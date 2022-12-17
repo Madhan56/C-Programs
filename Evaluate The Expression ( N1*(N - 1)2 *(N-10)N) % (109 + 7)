@@ -1,0 +1,11 @@
+#include <math.h>
+#include<stdio.h>
+int main()
+{
+    float N,result;
+    printf("Enter the value of N:");
+    scanf("%f",&N);
+    result= ((N*1)*((N-1)*2)*((N-2)*3)*((N-3)*4)*((N-4)*5)*((N-5)*N)/(109+7));
+    printf("The result is %f",result);
+    return 0;
+}
