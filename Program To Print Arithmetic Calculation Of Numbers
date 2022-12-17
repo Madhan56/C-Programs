@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter The Value Of a:");
+    scanf("%d",&a);
+    printf("Enter The Value Of b:");
+    scanf("%d",&b);
+    printf("\naddition=%d",a+b);
+    printf("\nSubtraction=%d",a-b);
+    printf("\nDivision=%d",a/b);
+    printf("\nModulo=%d",a%b);
+    printf("\nIncrement=%d",++a);
+    printf("\nDecrement=%d",--b);
+
+    return 0;
+}
