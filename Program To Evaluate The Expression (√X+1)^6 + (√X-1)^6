@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int x,expression;
+    printf("Enter the value of x:");
+    scanf("%d",&x);
+    expression=pow((sqrt(x)+1),6)+pow((sqrt(x)-1),6);
+    printf("expression=%d",expression);
+    return 0;
+}
