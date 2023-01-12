@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    void disp();
+   {
+    int a,b,c,sum;
+    printf("Enter Value Of a = ");
+    scanf("%d,%d",&a);
+    printf("Enter Value Of b = ");
+    scanf("%d",&b);
+    sum=a+b;
+    printf("sum = %d",sum);
+   }
+        return 0;
+}
