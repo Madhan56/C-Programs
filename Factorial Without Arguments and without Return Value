@@ -1,0 +1,22 @@
+#include<stdio.h>
+void disp();
+int main()
+{
+    disp();
+return 0;
+}
+
+void disp()
+    {
+        int a,fact,i;
+        printf("Enter Value Of a = ");
+        scanf("%d",&a);
+        i=1;
+        fact=1;
+       while(i<=a)
+        {
+            fact=fact*i;
+            i++;
+        }
+        printf("The Factorial Of Given Number Is = %d",fact);
+    }
