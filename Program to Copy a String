@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+ 
+int main(){
+    char inputString[100], copyString[100];
+     
+    printf("Enter a string of length less than 100 \n");
+    gets(inputString);
+     
+    strcpy(copyString, inputString);
+     
+    printf("Input String: %s \n", inputString);
+    printf("Copy String: %s", copyString);
+     
+    return 0;
+}
