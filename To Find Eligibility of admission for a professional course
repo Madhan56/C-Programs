@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int maths,physics,chemistry,t3,t2;
+printf ("input the mark obtained in maths:"); 
+scanf ("%d",&maths); 
+printf ("input the mark obtained in physics:");
+scanf ("%d",&physics);
+printf ("input the mark in chemistry:"); 
+scanf ("%d",&chemistry);
+t3=maths+physics+chemistry;
+t2=maths+physics;
+if (maths >= 65 && physics >= 55 && chemistry>= 50 && t3 >= 190 || t2 >= 140) 
+{
+printf ("the candidate is eligible");
+}
+else printf ("the canditate is not eligible");
+return 0;
+}
