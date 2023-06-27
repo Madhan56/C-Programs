@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+    int choice = -1;
+    printf("MENU:\n1. Burger\n2. Pizza\n3. Exit");
+    while(1){
+        printf("\nEnter your choice:");
+        scanf("%d", &choice);
+        if(choice == 1){
+            printf("> Enjoy your Coffee!\n");
+        }
+        else if (choice == 2){
+            printf("> Enjoy your Tea!\n");
+        }
+        else if (choice == 3){
+            printf("BYE!!!\n");
+            break;
+        }
+        else{
+            printf("> Invalid Input\n");
+        }
+    }
+    return 0;
+}
